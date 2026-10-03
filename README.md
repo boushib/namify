@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🐾 Pawsome
+# 🐾 Whiskr
 
 **Find the perfect name for your pet: swipe through hand-picked names with meanings, filter by species and style, save your favorites, name a whole litter and keep your pets' profiles. Built with Flutter for iOS, Android, web, macOS, Windows and Linux.**
 
@@ -43,7 +43,7 @@
 
 ## About
 
-Namify started in 2024 as a small Flutter app that showed random two-word names from the `english_words` package. In 2026 I rebuilt it as **Pawsome** on **Flutter 3.47** with Material 3: a real pet-name catalog, a swipe deck, pet profiles and a new look in violet and honey, with Fredoka and Nunito type. The original random names live on as the "Inventive" style.
+Namify started in 2024 as a small Flutter app that showed random two-word names from the `english_words` package. In 2026 I rebuilt it as **Whiskr** on **Flutter 3.47** with Material 3: a real pet-name catalog, a swipe deck, pet profiles and a new look in violet and honey, with Fredoka and Nunito type. The original random names live on as the "Inventive" style.
 
 Everything stays on the device: names, notes, pets and stats are saved locally with `shared_preferences`, and favorites from the first version are carried over.
 

@@ -13,11 +13,11 @@ import 'theme.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final storage = await Storage.open();
-  runApp(PawsomeApp(storage: storage));
+  runApp(WhiskrApp(storage: storage));
 }
 
-class PawsomeApp extends StatelessWidget {
-  const PawsomeApp({super.key, required this.storage});
+class WhiskrApp extends StatelessWidget {
+  const WhiskrApp({super.key, required this.storage});
   final Storage storage;
 
   @override
@@ -33,7 +33,7 @@ class PawsomeApp extends StatelessWidget {
         builder: (context) {
           final settings = context.watch<SettingsStore>();
           return MaterialApp(
-            title: 'Pawsome',
+            title: 'Whiskr',
             debugShowCheckedModeBanner: false,
             theme: buildTheme(Brightness.light),
             darkTheme: buildTheme(Brightness.dark),

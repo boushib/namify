@@ -183,7 +183,7 @@ class MoreScreen extends StatelessWidget {
                 ),
               ]),
               section('About', [
-                const ListTile(leading: Icon(Icons.pets_rounded), title: Text('Pawsome'), subtitle: Text('Version 2.0 · Find a name your pet will grow into')),
+                const ListTile(leading: Icon(Icons.pets_rounded), title: Text('Whiskr'), subtitle: Text('Version 2.0 · Find a name your pet will grow into')),
                 const Divider(height: 1),
                 ListTile(
                   leading: Icon(Icons.restart_alt_rounded, color: theme.colorScheme.error),
