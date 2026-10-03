@@ -1,11 +1,11 @@
 {
-    "name": "namify",
-    "short_name": "namify",
+    "name": "Pawsome",
+    "short_name": "Pawsome",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#6C4CF5",
+    "theme_color": "#6C4CF5",
+    "description": "Find the perfect name for your pet",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

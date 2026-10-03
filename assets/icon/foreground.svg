@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  
+  <g transform="translate(512 512) scale(.62) translate(-512 -512)"><!-- Paw: four toes and a pad -->
+  <g fill="#FFFFFF">
+    <ellipse cx="300" cy="384" rx="70" ry="92" transform="rotate(-20 300 384)"/>
+    <ellipse cx="428" cy="282" rx="72" ry="98" transform="rotate(-8 428 282)"/>
+    <ellipse cx="596" cy="282" rx="72" ry="98" transform="rotate(8 596 282)"/>
+    <ellipse cx="724" cy="384" rx="70" ry="92" transform="rotate(20 724 384)"/>
+    <path d="M512 452 C 640 452 744 566 744 664 C 744 742 690 784 620 784 C 576 784 552 764 512 764 C 472 764 448 784 404 784 C 334 784 280 742 280 664 C 280 566 384 452 512 452 Z"/>
+  </g>
+  <!-- Honey heart tucked on the pad -->
+  <path fill="#FFB547" d="M512 704 C 512 704 432 654 432 604 C 432 576 454 556 480 556 C 496 556 506 564 512 574 C 518 564 528 556 544 556 C 570 556 592 576 592 604 C 592 654 512 704 512 704 Z"/>
+</g>
+</svg>
