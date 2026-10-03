@@ -20,12 +20,12 @@ Color styleColor(NameStyle style, Brightness b) {
   const dark = {
     NameStyle.cute: Color(0xFF3B2632),
     NameStyle.classic: Color(0xFF253047),
-    NameStyle.funny: Color(0xFF3A3322),
-    NameStyle.food: Color(0xFF3D2C22),
+    NameStyle.funny: Color(0xFF3A2A4A),
+    NameStyle.food: Color(0xFF402A44),
     NameStyle.nature: Color(0xFF233528),
     NameStyle.mythic: Color(0xFF30284A),
     NameStyle.cosmic: Color(0xFF232C4D),
-    NameStyle.tough: Color(0xFF302D2B),
+    NameStyle.tough: Color(0xFF2C2648),
     NameStyle.fancy: Color(0xFF3A2638),
     NameStyle.inventive: Color(0xFF1F3A39),
   };

@@ -87,7 +87,7 @@ class MoreScreen extends StatelessWidget {
               const SizedBox(height: 18),
               Row(
                 children: [
-                  _Stat(value: '${deck.seen}', label: 'Names seen'),
+                  _Stat(value: '${deck.seen}', label: 'Seen'),
                   const SizedBox(width: 10),
                   _Stat(value: '${favorites.count}', label: 'Saved'),
                   const SizedBox(width: 10),

@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import 'app_shell.dart';
 import 'screens/onboarding_screen.dart';
+import 'services/demo_data.dart';
 import 'services/storage.dart';
 import 'state/deck_store.dart';
 import 'state/favorites_store.dart';
@@ -13,6 +14,7 @@ import 'theme.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final storage = await Storage.open();
+  await seedDemoData(storage);
   runApp(WhiskrApp(storage: storage));
 }
 

@@ -41,7 +41,7 @@ class Pet {
     final now = DateTime.now();
     var months = (now.year - b.year) * 12 + now.month - b.month - (now.day < b.day ? 1 : 0);
     if (months >= 24) return '${months ~/ 12} years';
-    if (months >= 12) return '1 year${months > 12 ? ', ${months - 12} mo' : ''}';
+    if (months >= 12) return months == 12 ? '1 year' : '$months months';
     if (months >= 1) return '$months month${months == 1 ? '' : 's'}';
     final weeks = now.difference(b).inDays ~/ 7;
     return weeks <= 1 ? 'Newborn' : '$weeks weeks';

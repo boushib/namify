@@ -187,11 +187,11 @@ class _CardStack extends StatelessWidget {
           decoration: BoxDecoration(color: color, borderRadius: BorderRadius.circular(28)),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisAlignment: MainAxisAlignment.end,
+            // The side cards peek out behind the front one, so only their emoji shows, at the top
+            mainAxisAlignment: name.isEmpty ? MainAxisAlignment.start : MainAxisAlignment.end,
             children: [
               Text(emoji, style: const TextStyle(fontSize: 44)),
-              const SizedBox(height: 8),
-              Text(name, style: nameStyle(context, size: 30)),
+              if (name.isNotEmpty) ...[const SizedBox(height: 8), Text(name, style: nameStyle(context, size: 30))],
             ],
           ),
         ),
@@ -203,8 +203,8 @@ class _CardStack extends StatelessWidget {
       child: Stack(
         alignment: Alignment.center,
         children: [
-          card('Clover', '🌿', const Color(0xFFE2F2E1), -.18, const Offset(-50, 10)),
-          card('Waffles', '🧁', const Color(0xFFFFE6D6), .16, const Offset(50, 10)),
+          card('', '🌿', const Color(0xFFE2F2E1), -.18, const Offset(-50, 10)),
+          card('', '🧁', const Color(0xFFFFE6D6), .16, const Offset(50, 10)),
           card('Luna', '🐉', const Color(0xFFEDE5FA), 0, Offset.zero),
           Positioned(
             right: 30,
