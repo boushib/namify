@@ -15,31 +15,33 @@
 [![Top language](https://img.shields.io/github/languages/top/boushib/namify)](https://github.com/boushib/namify)
 [![Repo size](https://img.shields.io/github/repo-size/boushib/namify)](https://github.com/boushib/namify)
 
-<img src="docs/screenshots/discover.png" alt="Discover: swipe through name cards" width="900" />
+<img src="docs/screenshots/phone/discover.png" alt="Discover: swipe through name cards" width="260" />&nbsp;&nbsp;
+<img src="docs/screenshots/phone/details.png" alt="Name details" width="260" />&nbsp;&nbsp;
+<img src="docs/screenshots/phone/discover-dark.png" alt="Discover in dark mode" width="260" />
 
 </div>
 
 ## Screenshots
 
-**Name details:** meaning, style, gender, letters and syllables, which pets it suits, similar names, and a note once you've saved it
+### On your phone
 
-<img src="docs/screenshots/details.png" alt="Name details sheet" width="100%" />
+<table><tr><td align="center" width="33%"><img src="docs/screenshots/phone/onboarding.png" alt="Onboarding" width="240" /><br /><sub>Onboarding</sub></td><td align="center" width="33%"><img src="docs/screenshots/phone/species.png" alt="Who are we naming" width="240" /><br /><sub>Pick your pet</sub></td><td align="center" width="33%"><img src="docs/screenshots/phone/discover.png" alt="Discover" width="240" /><br /><sub>Swipe to like or skip</sub></td></tr></table>
 
-**Saved names:** today's name, search, sorting, and swipe to remove (with undo)
+<table><tr><td align="center" width="33%"><img src="docs/screenshots/phone/details.png" alt="Name details" width="240" /><br /><sub>Meaning, tags and similar names</sub></td><td align="center" width="33%"><img src="docs/screenshots/phone/filters.png" alt="Filters" width="240" /><br /><sub>Gender, style, letter and length</sub></td></tr></table>
 
-<img src="docs/screenshots/saved.png" alt="Saved names" width="100%" />
+<table><tr><td align="center" width="33%"><img src="docs/screenshots/phone/saved.png" alt="Saved names" width="240" /><br /><sub>Saved names and name of the day</sub></td><td align="center" width="33%"><img src="docs/screenshots/phone/pets.png" alt="My pets" width="240" /><br /><sub>Your pets, with breed and age</sub></td><td align="center" width="33%"><img src="docs/screenshots/phone/litter.png" alt="Name a litter" width="240" /><br /><sub>Themed names for a litter</sub></td></tr></table>
 
-**Name a litter:** themed sets of names for several pets at once
+<table><tr><td align="center" width="33%"><img src="docs/screenshots/phone/discover-dark.png" alt="Dark mode" width="240" /><br /><sub>Dark mode</sub></td><td align="center" width="33%"><img src="docs/screenshots/phone/more-dark.png" alt="Stats and settings" width="240" /><br /><sub>Stats, taste and settings</sub></td></tr></table>
 
-<img src="docs/screenshots/litter.png" alt="Name a litter" width="100%" />
+### On desktop and the web
 
-**My pets:** profiles with species, breed and age
+The same app on a wide screen: the tabs move to a side rail, pages keep a readable width, and the arrow keys swipe cards.
 
-<img src="docs/screenshots/pets.png" alt="My pets" width="100%" />
+<img src="docs/screenshots/desktop/discover.png" alt="Discover on desktop" width="100%" />
 
-**More, in dark mode:** your stats and taste, appearance, haptics and help
+<img src="docs/screenshots/desktop/details.png" alt="Name details on desktop, dark mode" width="100%" />
 
-<img src="docs/screenshots/more.png" alt="More screen in dark mode" width="100%" />
+<img src="docs/screenshots/desktop/pets.png" alt="My pets on desktop" width="100%" />
 
 ## About
 
@@ -99,6 +101,7 @@ iOS and macOS use Swift Package Manager, so CocoaPods isn't needed.
 | `flutter analyze` | Lints |
 | `flutter build web` | Production web build in `build/web` |
 | `dart run flutter_launcher_icons` | Regenerates the app icons from `assets/icon/` |
+| `flutter run --dart-define=DEMO=true` | Starts with sample saved names, pets and stats, for screenshots |
 
 ## Project structure
 
