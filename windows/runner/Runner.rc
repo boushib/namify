@@ -89,11 +89,11 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
+            VALUE "CompanyName", "com.boushib" "\0"
             VALUE "FileDescription", "namify" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "namify" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 com.boushib. All rights reserved." "\0"
             VALUE "OriginalFilename", "namify.exe" "\0"
             VALUE "ProductName", "namify" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
