@@ -16,7 +16,15 @@ class PetsScreen extends StatelessWidget {
     final theme = Theme.of(context);
 
     return Scaffold(
-      floatingActionButton: pets.isEmpty ? null : FloatingActionButton.extended(onPressed: () => PetEditor.show(context), icon: const Icon(Icons.add_rounded), label: const Text('Add pet')),
+      floatingActionButton: pets.isEmpty
+          ? null
+          : FloatingActionButton.extended(
+              onPressed: () => PetEditor.show(context),
+              backgroundColor: theme.colorScheme.primary,
+              foregroundColor: theme.colorScheme.onPrimary,
+              icon: const Icon(Icons.add_rounded),
+              label: const Text('Add pet', style: TextStyle(fontWeight: FontWeight.w800)),
+            ),
       body: SafeArea(
         bottom: false,
         child: PageWidth(
